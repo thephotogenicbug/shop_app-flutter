@@ -10,16 +10,10 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final List<String> filters = const ['All', 'Adidas', 'Nike', 'Bata'];
-  late String selectedFilter;
+
 
   int currentPage = 0;
 
-  @override
-  void initState() {
-    super.initState();
-    selectedFilter = filters[0];
-  }
 
   @override
   Widget build(BuildContext context) {
